@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <CheckBoxPreference android:key="autodownload" android:defaultValue="false" android:title="Auto-download"
+        android:summary="Auto-save places to stay to file?"
+        android:id="@+id/check" />
+    />
+    <CheckBoxPreference android:key="autosaveweb" android:defaultValue="false" android:title="Auto save"
+        android:summary="Auto-save places to stay to the web?"
+        android:id="@+id/check1" />
+    />
+</PreferenceScreen>
